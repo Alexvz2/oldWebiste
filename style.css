@@ -107,6 +107,14 @@ p{
   padding-bottom: 50px;
 
 }
+#Projects{
+  padding-top: 100px;
+  height: 100%;
+  padding-bottom: 100px;
+  padding:2.5% 10% 2.5%;
+  background-size: cover;
+
+}
 
 
 .btn.outline {
@@ -236,17 +244,7 @@ footer{
   opacity: .95;
 }
 
-.skewedBox{
-  background: #D5D5D5;
-  padding: 100px 0;
-  transform: skewY(-5deg) translateY(100px);
 
-}
-.skcontainer{
-  padding: 150px 200px;
-  transform: skewY(5deg);
-
-}
 
 .fa fa-motorcycle{
   color: #000;
