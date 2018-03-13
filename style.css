@@ -1,0 +1,252 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+h1,h2,h4,h3{
+  font-family: 'Ubuntu',sans-serif;
+}
+p{
+  font-family: "Open Sans",sans-serif;
+}
+
+
+.navbar{
+  background-color: #23515C;
+  padding: .5% 0;
+  font-size: 1.2em;
+  opacity: .95;
+}
+.navbar-brand{
+  min-height: 5px;
+  padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+  color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+  color: #FFF;
+}
+#home{
+  background: url(img/hiking.png) no-repeat center center ;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+}
+.landing-text h1{
+  font-size: 500%;
+  font-weight: 700;
+  color: #FFF;
+}
+.landing-text h4{
+  font-size: 150%;
+  font-weight: lighter;
+  opacity: .9;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+.glyphicon{
+  opacity: .9;
+  color: #fff;
+  font-size:150%;
+}
+.hi{
+  vertical-align: middle;
+}
+
+.glyphicon:hover, .glyphicon:active, .glyphicon:focus{
+  color: #D5D5D5;
+  font-size: 200%;
+  box-shadow: 50px;
+}
+.bottom{
+  vertical-align: bottom;
+  margin-top: 5%;
+}
+.typewrite{
+  font-size: 150%;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 0;
+  text-decoration: none;
+}
+
+.typewrite:hover{
+  font-size: 60px auto;
+  color: #fff;
+  padding-top: 0;
+  text-shadow: 200px;
+  text-decoration: none;
+}
+
+
+}
+.padding{
+  padding: 5px 0;
+}
+.padding img{
+  width: 100%;
+}
+.padding2{
+  padding: 10px 0;
+}
+.padding2 img{
+  width: 100%;
+
+}
+#about{
+  padding-top: 100px;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 3px solid #FFF;
+    color: #FFF;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #D5D5D5;
+    border-color: #D5D5D5;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #fff;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn {
+    margin: 1%;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu',sans-serif;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+
+#fixed{
+  background: url(img/gif/circle.gif) no-repeat center center fixed;
+  display: table;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+#portfolio{
+  display: table;
+  position: relative;
+  padding-top: 80px;
+}
+.portfol{
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+}
+.portfol h1{
+  font-size: 500%;
+  font-weight: 700;
+  color: #FFF;
+}
+
+#fixed-skills{
+  background: url(img/gif/code.gif) no-repeat center center fixed;
+  display: table;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+#skills{
+  display: table;
+  position: relative;
+  padding-top: 80px;
+}
+.skill{
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+}
+.skill h1{
+  font-size: 500%;
+  font-weight: 700;
+  color: #FFF;
+}
+
+footer{
+  width: 100%;
+  background-color: #23515C;
+  padding: 5% 5% 5% 5%;
+  color: #FFF;
+  height: 20px auto;
+  overflow: hidden;
+}
+.fa{
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+.fa:hover{
+  color: #D5D5D5;
+  text-decoration: none;
+}
+.icon{
+  max-width: 200px;
+}
+@media (max-width:768px) {
+  .landing-text h1{
+    font-size: 300%;
+  }
+  .fa{
+    font-size: 20px;
+    max-width: 100px;
+  }
+}
+
+
+#Copyrights{
+  border-top: 1px solid #23515C;
+  background-color: #23515C;
+  width: 100%;
+  padding: .5% 2% 0% 2%;
+  opacity: .95;
+}
+
+.skewedBox{
+  background: #D5D5D5;
+  padding: 100px 0;
+  transform: skewY(-5deg) translateY(100px);
+
+}
+.skcontainer{
+  padding: 150px 200px;
+  transform: skewY(5deg);
+
+}
+
+.fa fa-motorcycle{
+  color: #000;
+  font-size: 100%;
+}
+.code{
+  background-color: #000;
+}
+
+.Procedural{
+  display: table-cell;
+  border-color: #000;
+}
