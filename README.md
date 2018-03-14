@@ -7,6 +7,6 @@ What better way is there to show employers what you know than by portraying it o
 
 Furthermore, the secondary purpose of this portfolio is to practice JS, HTML5 & CSS 3 and learn Bootstrap.
 
-Some of the Webpage attributes were inspired by
+Some of the Webpage attributes were inspired by Drew Ryan
 The Javascript Animations were obtained from
     TypeWriter- Original work by Simon Shahriveri (https://codepen.io/hi-im-si/pen/DHoup)
