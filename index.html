@@ -15,6 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 
   <!---Navigation Bar--------------------------------------->
@@ -70,9 +71,12 @@
   <div  id="about" class="container">
     <div class="row">
       <div class="col-sm-6">
+        <div class="showcase-down">
         <img src="img/Me.jpeg" class="img-rounded">
       </div>
+      </div>
       <div class="col-sm-6 text-center">
+        <div class="showcase-right">
         <h2>About Me.</h2>
         <p class="lead">My name is Alex Vazquez, Im a UBC Engineering student
           based on Vancouver, BC. I graduated from high school with a Full IB Diploma
@@ -84,35 +88,44 @@
         aiming on gaining experience in the computational field both in the Software
         and Hardware aspects of it, specifically cloud computing and data storage.</p>
       </div>
+      </div>
     </div>
   </div>
   </div>
-
   <br>
   <br>
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <h4>Communication Skills</h4>
-        <p class="lead"> Professionally Fluent in Spanish and English,
-        colloquially  fluent in French and communication skills in Italian</p>
+        <div class="showcase-left">
+          <h4>Communication Skills</h4>
+          <p class="lead"> Professionally Fluent in Spanish and English,
+          colloquially  fluent in French and communication skills in Italian</p>
+        </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <img src="img/com.png" class="img-responsive">
+        <div class="showcase-up">
+            <img src="img/com.png" class="img-responsive">
+        </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="showcase-down">
         <h4>Leadership Skills</h4>
         <p class="lead">I am a true leader in the making, with the mentality
         that through effective communication and teamwork it is possible to
         achieve the impossible</p>
       </div>
+      </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <img src="img/lead.png" class="img-responsive">
+        <div class="showcase-right">
+          <img src="img/lead.png" class="img-responsive">
+        </div>
       </div>
       <br>
       <br>
     </div>
   </div>
+
 <!---Portfolio--------------------------------------->
   <div id="fixed">
     <div id="portfolio">
@@ -125,20 +138,26 @@
 
 
   <div class="padding">
-      <h1 class="text-center " style=" font-size:250%; ">Projects</h1>
+      <div class="showcase-down">
+        <h1 class="text-center " style=" font-size:290%; ">Projects</h1>
+      </div>
       <br>
-      <h3 class="container lead"> Although Engineering keeps me busy most of the time,
-      before university I would carry personal projects non stop, now with
-      engineering I have less time to dedicate to my personal projects, but
-      I find that I have more resources and knowledge than ever to create more
-      advanced personal projects</h3>
+      <div class="showcase-up">
+        <h3 class="container lead"> Although Engineering keeps me busy most of the time,
+        before university I would carry personal projects non stop, now with
+        engineering I have less time to dedicate to my personal projects, but
+        I find that I have more resources and knowledge than ever to create more
+        advanced personal projects</h3>
+      </div>
   </div>
 
       <div class="padding">
       <div  id="Projects" class="container" style="background-color:	#c0c5ce;">
         <div class="row">
           <div class="col-sm-6">
-            <img src="img/motorcycle.png" class="img-rounded">
+            <div class="showcase-left">
+              <img src="img/motorcycle.png" class="img-rounded">
+            </div>
           </div>
           <div class="col-sm-6 text-center">
             <h2>Cafe Racer Motorcycle</h2>
@@ -172,7 +191,9 @@
             </p>
           </div>
           <div class="col-sm-6">
-            <img src="img/Orbitlogo.png" class="img-rounded">
+            <div class="showcase-right">
+              <img src="img/Orbitlogo.png" class="img-rounded">
+            </div>
           </div>
         </div>
       </div>
@@ -182,8 +203,10 @@
       <div  id="Projects" class="container" style="background-color:	#65737e;">
         <div class="row">
           <div class="col-sm-6">
-            <img src="img/Claw.png" class="img-rounded">
-            <img src="img/Clawtop.png" class="img-rounded">
+            <div class="showcase-left">
+              <img src="img/Claw.png" class="img-rounded">
+              <img src="img/Clawtop.png" class="img-rounded">
+            </div>
           </div>
           <div class="col-sm-6 text-center">
             <h1 style="color:#fff;">Mechanical Claw</h1>
@@ -217,7 +240,9 @@
             </p>
           </div>
           <div class="col-sm-6">
-            <img src="img/Raspboard.png" class="img-rounded">
+            <div class="showcase-right">
+              <img src="img/Raspboard.png" class="img-rounded">
+            </div>
           </div>
         </div>
       </div>
@@ -227,7 +252,9 @@
       <div  id="Projects" class="container" style="background-color:#343d46;">
         <div class="row">
           <div class="col-sm-6">
-            <img src="img/Freday.png" class="img-rounded">
+            <div class="showcase-left">
+              <img src="img/Freday.png" class="img-rounded">
+            </div>
           </div>
           <div class="col-sm-6 text-center">
             <h1 style="color:#fff;">Freezzy App</h1>
@@ -267,7 +294,7 @@
       <a class="fa fa-code" style="font-size:40px;color:#000; text-shadow:50px;">
       </a>
       <div class="row">
-
+        <div class="logo1">
         <div class="col-sm-4">
           <h2> Procedural</h2>
           <img src="img/Ccode.png" id="icon">
@@ -275,26 +302,30 @@
           <img src="img/Visualbasic.png" id="icon">
           <h4>Visual <br>Basics</h4>
         </div>
-
-        <div class="col-sm-4">
-          <h2>Object Oriented</h2>
-          <img src="img/cplusplus.png" id="icon">
-          <h4>C++</h4>
-          <img src="img/Pythonlogo.png" id="icon">
-          <h4>Python 3</h4>
+      </div>
+        <div class="logo2">
+          <div class="col-sm-4">
+            <h2>Object Oriented</h2>
+            <img src="img/cplusplus.png" id="icon">
+            <h4>C++</h4>
+            <img src="img/Pythonlogo.png" id="icon">
+            <h4>Python 3</h4>
+          </div>
         </div>
 
-        <div class="col-sm-4">
-          <h2>Prototype</h2>
-          <img src="img/Javascript.png" id="icon">
-          <h4>JavaScript</h4>
-            <img src="img/H&C.png" id="icon">
-          <h4>HTML5 & CSS3</h4>
+        <div class="logo3">
+          <div class="col-sm-4">
+            <h2>Prototype</h2>
+            <img src="img/Javascript.png" id="icon">
+            <h4>JavaScript</h4>
+              <img src="img/H&C.png" id="icon">
+            <h4>HTML5 & CSS3</h4>
+          </div>
         </div>
 
       </div>
 
-
+  </div>
     </div>
 
     <div class="clear-fix"></div>
@@ -304,6 +335,7 @@
       <a class="fa fa-download" style="font-size:40px;color:#000; text-shadow:50px;">
       </a>
       <div class="row">
+        <div class="logo1">
 
         <div class="col-sm-4">
           <img src="img/Alt.png" id="icon">
@@ -311,14 +343,16 @@
           <img src="img/Matlablogo.png" id="icon">
           <h2>Matlab</h2>
         </div>
-
+        </div>
+        <div class="logo2">
         <div class="col-sm-4">
           <img src="img/Cernlogo.png" id="icon">
           <h2>Minerva</h2>
           <img src="img/Cube.png" id="icon" style="img-rounded:10px;">
           <h2>Cube MX</h2>
         </div>
-
+        </div>
+        <div class="logo3">
         <div class="col-sm-4">
           <img src="img/SW.png" id="icon">
           <h2>SolidWorks</h2>
@@ -327,7 +361,7 @@
         </div>
 
       </div>
-
+</div>
     </div>
 
     <div style="padding:2.5% 10% 2.5%; background-color:#5A7C84;background-size:cover;"class="container text-center center">
@@ -335,24 +369,33 @@
       <a class="fa fa-download" style="font-size:40px;color:#000; text-shadow:50px;">
       </a>
       <div class="row">
+        <div class="logo1">
+
 
         <div class="col-sm-4">
           <img src="img/ArduinoUno.png" id="icon">
           <h2>Arduino</h2>
         </div>
-
-        <div class="col-sm-4">
-          <img src="img/STM.png" id="icon">
-          <h2>STM32</h2>
+        </div>
+        <div class="logo2">
+          <div class="col-sm-4">
+            <div class="showcase-ease">
+              <img src="img/STM.png" id="icon">
+              <h2>STM32</h2>
+            </div>
+          </div>
         </div>
 
-        <div class="col-sm-4">
-          <img src="img/Rasplogo.png" id="icon">
-          <h2>Raspberry Pi</h2>
+        <div class="logo3">
+          <div class="col-sm-4">
+            <img src="img/Rasplogo.png" id="icon">
+            <h2>Raspberry Pi</h2>
+          </div>
         </div>
+
 
       </div>
-
+</div>
     </div>
 
     <div style="padding:2.5% 10% 2.5%; background-color:#3E6670;background-size:cover;"class="container text-center center">
@@ -360,22 +403,28 @@
       <a class="fa fa-language" style="font-size:40px;color:#000; text-shadow:50px;">
       </a>
       <div class="row">
-
-        <div class="col-sm-4">
-          <h2>Fluent Professionally</h2>
-          <h3>English</h3>
-          <h3>Spanish</h3>
+        <div class="logo1">
+          <div class="col-sm-4">
+            <h2>Fluent Professionally</h2>
+            <h3>English</h3>
+            <h3>Spanish</h3>
+          </div>
         </div>
 
-        <div class="c">
-          <h2>Fluent Communication</h2>
-          <h3>French</h3>
+        <div class="logo2">
+          <div class="col-sm-4">
+            <h2>Fluent Communication</h2>
+            <h3>French</h3>
+          </div>
         </div>
 
-        <div class="col-sm-4">
-          <h2>Basic Communication</h2>
-          <h3>Italian</h3>
-        </div>
+<div class="logo3">
+  <div class="col-sm-4">
+    <h2>Basic Communication</h2>
+    <h3>Italian</h3>
+  </div>
+</div>
+
 
       </div>
 
@@ -400,26 +449,96 @@
   <footer id="connect" class="container-fluid text-center">
     <div class="row">
       <div class="col-sm-4">
-        <h3>Contact Me</h3>
-
-        <h4>a.vazquez@alumni.ubc.ca</h4>
-        <br>
-        <h4>alexvzvz28@gmail.com</h4>
+        <div class="showcase-left">
+          <h3>Contact Me</h3>
+          <h4>a.vazquez@alumni.ubc.ca</h4>
+          <br>
+          <h4>alexvzvz28@gmail.com</h4>
+        </div>
       </div>
       <div class="col-sm-4">
+        <div class="showcase-down">
         <h3>Connect</h3>
         <a href="https://www.linkedin.com/in/alex-vazquez" target="_blank" class="fa fa-linkedin"></a>
         <a href="https://github.com/Alexvz2" target="_blank" class="fa fa-github"></a>
         <a href="https://www.youtube.com/channel/UCc53B-qSII8JWD1PluKYzfQ" target="_blank" class="fa fa-youtube"></a>
       </div>
-      <div class="col-sm-4">
-        <img src="img/gif/vz2.gif" class="icon">
+        </div>
+      <div class="showcase-right">
+        <div class="col-sm-4">
+          <img src="img/gif/vz2.gif" class="icon">
+        </div>
       </div>
     </div>
   </footer>
 <!---Copy rights--------------------------------------->
+<div class="showcase-up">
   <footer id="Copyrights" class="text-center fixed-bottom">
     <p>&copy; Made by me, 2018.</p>
   </footer>
+  </div>
 </body>
 </html>
+<!---Animations----->
+<script>
+window.sr = ScrollReveal();
+sr.reveal('.navbar', {
+  duration: 1400,
+  origin: 'bottom'
+});
+
+sr.reveal('.showcase-down', {
+  duration: 2000,
+  origin: 'top',
+  distance: '150px',
+});
+sr.reveal('.showcase-up', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '200px',
+});
+
+sr.reveal('.showcase-right', {
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+  delay: 200,
+  useDelay:'once',
+});
+sr.reveal('.showcase-left', {
+  duration: 2000,
+  origin: 'left',
+  distance: '300px',
+  delay: 200,
+  useDelay:'once',
+});
+sr.reveal('.portfol',{
+  duration: 2000,
+  origin: 'up',
+  distance: '200px'
+  });
+  sr.reveal('.skill',{
+    duration: 2000,
+    origin: 'up',
+    distance: '200px'
+    });
+sr.reveal('.logo1',{
+  duration: 2500,
+  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  viewFactor:0.2,
+  });
+
+sr.reveal('.logo2', {
+    duration: 2500,
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    viewFactor:0.2,
+    delay:700,
+    });
+  sr.reveal('.logo3', {
+      duration: 2500,
+      easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+      viewFactor:0.2,
+      delay:1400,
+      });
+
+</script>
