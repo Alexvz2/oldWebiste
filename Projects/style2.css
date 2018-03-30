@@ -25,7 +25,10 @@ p{
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
   color: #FFF;
 }
-
+.item img{
+  height: 70% ;
+  width: 100% ;
+}
 
 .carousel-caption{
   top:50%;
