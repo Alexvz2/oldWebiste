@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Alex Vazquez - Claw</title>
+  <title>Alex Vazquez - Software Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="img/Logo.ico">
@@ -35,9 +35,9 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="active" href="../index.html">Home</a></li>
-          <li><a href="#ClusterPi">Claw</a></li>
-          <li><a href="#ServerPi">DAQ</a></li>
-          <li><a href="#ComputerPi">DE1-SoC</a></li>
+          <li><a href="#ClusterPi">Kalman Filter</a></li>
+          <li><a href="#ServerPi">STM32 & IMU's</a></li>
+          <li><a href="#ComputerPi">PCB</a></li>
           <li><a href="https://www.linkedin.com/in/alex-vazquez" target="_blank"
           class="fa fa-linkedin"></a></li>
           <li><a href="https://github.com/Alexvz2" target="_blank"
@@ -46,26 +46,24 @@
       </div>
     </div>
   </nav>
-
 <!---Cover Page"ClusterPi"--------------------------------------->
 <div id="ClusterPi" style="padding-top:20px;"class="clear-fix"></div>
 <div class="padding">
 <div  id="PiProject" class="container">
-  <h1 class="text-center"style="font-size:50px;">Arduino Claw</h1>
+  <h1 class="text-center"style="font-size:50px;">Kalman Filter</h1>
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-6">
-      <img  src="../img/Claw.png">
-      <img  src="../img/Clawtop.png">
+      <img  src="../img/funnel.png" style="height:350px; width:350px;">
     </div>
     <div class="col-md-6 col-sm-6 text-center">
-      <h1 >APSC Mechanical Arduino Claw</h1>
-      <p class="lead">For APSC 101 we had as a project to design, build and code an autonomous claw with the objective of extracting specific objects from the floor without human controlled interactions for the opening and closing of the claw.</p>
-      <span class="label label-default">C</span>
-      <span class="label label-primary">Arduino</span>
-      <span class="label label-success">SolidWorks</span>
-      <span class="label label-info">APSC 101</span>
-      <a href="https://github.com/Alexvz2" target="_blank"
+      <h1 >Kalman Filter Implementation</h1>
+      <p class="lead">Implemantation of Kalman Filter Protocol designed by Wyatt into C++ code.</p>
+      <span class="label label-default">C++</span>
+      <span class="label label-primary">STM32</span>
+      <span class="label label-success">MATLAB+Simulink</span>
+      <span class="label label-info">KeilArm</span>
+      <a href="https://github.com/UBCOrbit" target="_blank"
       class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
     </div>
   </div>
@@ -78,20 +76,23 @@
 <!---Cover Page"ServerPi"--------------------------------------->
 <div class="padding">
 <div id="PiProject" class="container">
-  <h1 class="text-center"style="font-size:50px;">DAQ Module</h1>
+  <h1 class="text-center"style="font-size:50px;">STM32 & IMU</h1>
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-6 text-center">
-      <h1 >Simon Say's Game</h1>
-      <p class="lead">For APSC 160 we were given a final assignment to implement a Simon Say's Game in C using a Data Acquisition Module. </p>
-      <span class="label label-default">DAQ</span>
-      <span class="label label-primary">C</span>
-      <span class="label label-success">APSC-160</span>
-      <a href="https://github.com/Alexvz2/Simon-Game-DAQ" target="_blank"
+      <h1 >Implemantation of IMU controller in STM32</h1>
+      <p class="lead"> Implemantation of acquisition module for data readings from IMU(Adafruit LSDS04M) & SunSensor and
+        Control and Communication module with magnetorquers and reaction wheels through I2C connection.</p>
+      <span class="label label-default">C++</span>
+      <span class="label label-primary">embedded systems</span>
+      <span class="label label-success">STM32</span>
+      <span class="label label-info">Adafruit IMU</span>
+      <span class="label label-warning">Controls</span>
+      <a href="https://github.com/Alexvz2/STM32-IMU-Reader" target="_blank"
       class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
     </div>
     <div class="col-md-6 col-sm-6">
-      <img  src="../img/game.png" style="height:350px; width:350px;">
+      <img  src="../img/chip.png" style="height:350px; width:350px;">
     </div>
   </div>
 </div>
@@ -103,20 +104,20 @@
 <!---Cover Page"ComputerPi"--------------------------------------->
 <div class="padding">
 <div  id="PiProject" class="container">
-  <h1 class="text-center"style="font-size:50px;">DE1-SoC Program</h1>
+  <h1 class="text-center"style="font-size:50px;">ADCS PCB Design</h1>
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-6">
-      <img src="../img/harddrive.png" style="height:350px; width:350px;">
+      <img src="../img/pcb.png" style="height:350px; width:350px;">
     </div>
     <div class="col-md-6 col-sm-6 text-center">
-      <h1 >MicroComputer Verilog Program</h1>
-      <p class="lead"> For CPEN 211 lab, our las project consisted on creating..</p>
-      <span class="label label-default">Verilog</span>
-      <span class="label label-primary">DE1-SoC</span>
-      <span class="label label-success">CPEN-211</span>
+      <h1 >SunSensor PCB Design and Fabrication</h1>
+      <p class="lead"> Design and Creation of ADCS's SunSensor PCB with the use of Altium Designer.</p>
+      <span class="label label-default">Altium Designer</span>
+      <span class="label label-primary">Circuitry</span>
+      <span class="label label-success">PCB Manufacturing and Assembly</span>
       <a href="https://github.com/UBCOrbit" target="_blank"
-      class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
+      class="fa fa-folder" style="color: #534E4E; font-size: 20px;"> Documentation Link</a>
     </div>
   </div>
 </div>

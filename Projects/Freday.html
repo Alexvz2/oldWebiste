@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Alex Vazquez - Freday App</title>
+  <title>Alex Vazquez - Software Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="img/Logo.ico">
@@ -35,10 +35,9 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="active" href="../index.html">Home</a></li>
-          <li><a href="#myCarousel">Gallery</a></li>
-          <li><a href="#ClusterPi">Idea</a></li>
-          <li><a href="#ServerPi">Meetings</a></li>
-          <li><a href="#ComputerPi">Execution</a></li>
+          <li><a href="#ClusterPi">Alarm AI</a></li>
+          <li><a href="#ServerPi">J-Bot</a></li>
+          <li><a href="#ComputerPi">Freday</a></li>
           <li><a href="https://www.linkedin.com/in/alex-vazquez" target="_blank"
           class="fa fa-linkedin"></a></li>
           <li><a href="https://github.com/Alexvz2" target="_blank"
@@ -47,62 +46,27 @@
       </div>
     </div>
   </nav>
-<!---Cover Page"HomePi"--------------------------------------->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0"class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img  src="../img/ucsilver.png">
-      <div class="carousel-caption">
-        <h1>Coming Soon</h1>
-        <br>
-        <button type="button" class="btn btn-default">Check It Out</button>
-      </div>
-    </div><!--end active-->
-    <div class="item">
-      <img  src="../img/ucwood.png">
-      <div class="carousel-caption">
-        <h1>Coming Soon</h1>
-        <br>
-        <button type="button" class="btn btn-default">Check It Out</button>
-      </div>
-    </div>
-    <div class="item">
-      <img  src="../img/ucbg.png">
-      <div class="carousel-caption">
-        <h1>Cooming Soon</h1>
-        <br>
-        <button type="button" class="btn btn-default">Check It Out</button>
-      </div>
-    </div>
-  </div>
-  <!--Slider Control-->
-  <a class="left-carousel-control" href="#myCarousel" role="button" data-slide="prev">
-  <span class="sr-only">Previous</span>
-  </a>
-  <a id="ClusterPi" class="right-carousel-control" href="#myCarousel" role="button" data-slide="next">
-  <span class="sr-only">Next</span>
-  </a>
-</div><!--end slider-->
-<div class="clear-fix"></div>
 <!---Cover Page"ClusterPi"--------------------------------------->
+<div id="ClusterPi" style="padding-top:20px;"class="clear-fix"></div>
 <div class="padding">
 <div  id="PiProject" class="container">
-  <h1 class="text-center"style="font-size:50px;">Idea</h1>
+  <h1 class="text-center"style="font-size:50px;">Alarm Machine Learning</h1>
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-6">
-      <img  src="../img/Freday.png">
+      <img  src="../img/alarm-clock.png" style="height:350px; width:350px;">
     </div>
     <div class="col-md-6 col-sm-6 text-center">
-      <h1 >Tackling a problem</h1>
-      <p class="lead"> On one of my long commute's back from UBC I was talking to my friend Pedram of ideas to fix current problems, and he mentioned he had this idea of making an app that would sort out when you are free to meet with your teammates when doing a group project.
-        Initially I did not take serious this idea, due to the fact that my experience's in group projects had been quite sastisfactory. A couple of week's later I was frustrated on how I never coincided with my friends for lunch or to catch up. And that same day I met with Pedram, the one of the idea and Mattias, the experience programmer, to plan how to execute this idea.</p>
-      <p class="lead"> Althought, we found an app similar to the idea of ours Mattias said some motivating words that kept us forward with the idea; He said "in today's world its hard being creative or having an original idea due to the great population, yet what makes a difference between your idea and someones idea, is your desire to suceed and the touch you add to it"</p>
+      <h1 >Machine Learning Alarm Times</h1>
+      <p class="lead">Tempted to submerge myself in the Machine Learning Realm, I decided to begin a project were I would teach a computer my sleeping patterns and the machine would predict.</p>
+      <span class="label label-default">Python</span>
+      <span class="label label-primary">Google Cloud Platform</span>
+      <span class="label label-success">TensorFlow</span>
+      <span class="label label-success">Panda</span>
+      <span class="label label-success">SKLearn</span>
+      <span class="label label-info">Machine Learning</span>
+      <a href="https://github.com/Alexvz2" target="_blank"
+      class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Github Repository</a>
     </div>
   </div>
 </div>
@@ -114,15 +78,23 @@
 <!---Cover Page"ServerPi"--------------------------------------->
 <div class="padding">
 <div id="PiProject" class="container">
-  <h1 class="text-center"style="font-size:50px;">Approach</h1>
+  <h1 class="text-center"style="font-size:50px;">Jenkins-Slack Bot</h1>
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-6 text-center">
-      <h1 >Approaching the idea</h1>
-      <p class="lead">We began meeting on saturdays to plan and design out app idea, yet due to the schoolwork we faced, we decided to go 100% on this app idea till the summer.</p>
+      <h1 >Jenkins Automatization Supervised through Slack</h1>
+      <p class="lead"> During my Internship at Inetco I was assigned to output customized results from Jenkins on to Slack. After the internship, I decided to use
+      my acquired knowledge to create a similar project that would allow developers to get full control and live output of Jenkins from Slack.</p>
+      <span class="label label-default">Python</span>
+      <span class="label label-primary">Jenkins</span>
+      <span class="label label-success">Slack API</span>
+      <span class="label label-info">Multi-Threading</span>
+      <span class="label label-warning">JSON</span>
+      <a href="https://github.com/Alexvz2" target="_blank"
+      class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Github Repository</a>
     </div>
     <div class="col-md-6 col-sm-6">
-      <img  src="../img/Freday.png">
+      <img  src="../img/jenkins.png" style="height:350px; width:350px;">
     </div>
   </div>
 </div>
@@ -134,15 +106,21 @@
 <!---Cover Page"ComputerPi"--------------------------------------->
 <div class="padding">
 <div  id="PiProject" class="container">
-  <h1 class="text-center"style="font-size:50px;">Execution</h1>
+  <h1 class="text-center"style="font-size:50px;">Freday App</h1>
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-6">
-      <img src="../img/Freday.png">
+      <img src="../img/Freday.png" style="height:350px; width:350px;">
     </div>
     <div class="col-md-6 col-sm-6 text-center">
-      <h1 >Executing the idea</h1>
-      <p class="lead">Due to the fact that the app has not yet been launched to the market, I cannot share its execution or idea behind it yet.</p>
+      <h1 >Organizational App</h1>
+      <p class="lead"> An app that based of a ranking system and image recognition, output's meeting times compatible with other users.</p>
+      <span class="label label-default">React Native</span>
+      <span class="label label-primary">React JS</span>
+      <span class="label label-success">SQL</span>
+      <span class="label label-info">Postgres</span>
+      <a href="https://github.com/Alexvz2" target="_blank"
+      class="fa fa-calendar" style="color: #534E4E; font-size: 20px;"> Freday Link</a>
     </div>
   </div>
 </div>
