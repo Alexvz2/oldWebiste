@@ -11,3 +11,4 @@ Some of the Webpage attributes were inspired by Drew Ryan.
 
 The Javascript Animations were obtained from
     TypeWriter- Original work by Simon Shahriveri (https://codepen.io/hi-im-si/pen/DHoup)
+Some Icon were created by Freepik obtained  from www.flaticon.com
