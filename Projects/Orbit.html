@@ -35,9 +35,10 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="active" href="../index.html">Home</a></li>
-          <li><a href="#ClusterPi">Kalman Filter</a></li>
-          <li><a href="#ServerPi">STM32 & IMU's</a></li>
-          <li><a href="#ComputerPi">PCB</a></li>
+          <li><a href="#Detumbling">Detumbling</a></li>
+          <li><a href="#Kalman">Kalman Filter</a></li>
+          <li><a href="#IMU">STM32 & IMU's</a></li>
+          <li><a href="#PCB">PCB</a></li>
           <li><a href="https://www.linkedin.com/in/alex-vazquez" target="_blank"
           class="fa fa-linkedin"></a></li>
           <li><a href="https://github.com/Alexvz2" target="_blank"
@@ -46,8 +47,37 @@
       </div>
     </div>
   </nav>
+  <!---Cover Page"ClusterPi"--------------------------------------->
+  <div id="Detumbling" style="padding-top:20px;"class="clear-fix"></div>
+  <div class="padding">
+  <div  id="PiProject" class="container">
+    <h1 class="text-center"style="font-size:50px;">Detumbling Algorithm</h1>
+    <br>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 text-center">
+        <h1 >Detumbling Controller</h1>
+        <p class="lead">Currently Implementating in C++ a detumbling algorithm using PID Control theory and B-dot controllers. The Proportional Integral Derivative Controller utilizes the errors in order to regulate and control the stiring
+        of the satellite using a B-Dot Methodology. The B-Dot methodology requires to know the precise location of the satellite in order to interact with the known magnetic field at that point with the magnetorquers and set the satellite in an equilibrium or desired position.</p>
+        <span class="label label-default">C++</span>
+        <span class="label label-primary">PID</span>
+        <span class="label label-success">MATLAB+Simulink</span>
+        <span class="label label-warning">IGRF</span>
+        <span class="label label-info">ARM</span>
+        <a href="https://github.com/UBCOrbit" target="_blank"
+        class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <img  src="../img/sat.png" style="height:350px; width:350px;">
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
+    <hr id="ServerPi" class="my-4">
+  </div>
+  <div class="clear-fix"></div>
 <!---Cover Page"ClusterPi"--------------------------------------->
-<div id="ClusterPi" style="padding-top:20px;"class="clear-fix"></div>
+<div id="Kalman" style="padding-top:15px;"class="clear-fix"></div>
 <div class="padding">
 <div  id="PiProject" class="container">
   <h1 class="text-center"style="font-size:50px;">Kalman Filter</h1>
@@ -74,6 +104,7 @@
 </div>
 <div class="clear-fix"></div>
 <!---Cover Page"ServerPi"--------------------------------------->
+<div id="IMU" style="padding-top:15px;"class="clear-fix"></div>
 <div class="padding">
 <div id="PiProject" class="container">
   <h1 class="text-center"style="font-size:50px;">STM32 & IMU</h1>
@@ -102,6 +133,7 @@
 </div>
 <div class="clear-fix"></div>
 <!---Cover Page"ComputerPi"--------------------------------------->
+<div id="PCB" style="padding-top:15px;"class="clear-fix"></div>
 <div class="padding">
 <div  id="PiProject" class="container">
   <h1 class="text-center"style="font-size:50px;">ADCS PCB Design</h1>
@@ -147,7 +179,7 @@
   </footer>
 <!---Copy rights--------------------------------------->
   <footer id="Copyrights" class="text-center fixed-bottom">
-    <p>&copy; Made by me, 2018.</p>
+    <p>&copy; Alex Vazquez, 2018.</p>
   </footer>
 </body>
 </html>
